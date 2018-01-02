@@ -1,6 +1,43 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #303030;
+  font-size: 16px;
+}
+
+/*TYPOGRAPHY*/
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color:#ffffff;
+}
+a:visited {
+  color:#660099;
+}
+a:hover {
+  color:#0070BC;
+  text-decoration: underline;
+}
+a:active {
+  color:#0070BD;
+}
+
+h1  {
+  color: #101010;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 2;
+}
+
+h3  {
+  font-size: 1.25em;
+  line-height: 1.1;
+}
+
+p {
+  line-height: 1.1;
 }
 
 nav {
@@ -8,6 +45,18 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+figcaption  {
+  font-size: .75em;
+  color: 	#606060;
+  font-style: italic;
+}
+
+.author {
+  font-size: .9em;
+  color: #606060;
+  line-height: 1.5;
 }
 
 .logo {
@@ -49,4 +98,8 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+.story-text {
+  padding-top: 20px;
 }
