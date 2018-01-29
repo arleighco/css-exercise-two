@@ -14,10 +14,9 @@ a:link {
   color:#ffffff;
 }
 a:visited {
-  color:#660099;
+  color:#DAF7A6;
 }
 a:hover {
-  color:#0070BC;
   text-decoration: underline;
 }
 a:active {
@@ -33,15 +32,19 @@ h1  {
 
 h3  {
   font-size: 1.25em;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 p {
   line-height: 1.1;
 }
 
+p + p {
+  margin-top: 15px;
+}
+
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #0A00DA;
   float: left;
   position: fixed;
   width: 100%;
